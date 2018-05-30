@@ -1,0 +1,172 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<script src="js/mui.min.js"></script>
+	</head>
+	<body>
+		<header class="mui-bar mui-bar-nav mui-bar-transparent ">
+			<a class="mui-action-back mui-icon mui-pull-left s-home-location">贵阳</a>
+			<a class="mui-action-back mui-icon mui-icon-arrowdown mui-pull-left s-home-location""></a>
+			<a class="mui-action-back mui-icon mui-icon-chat mui-pull-right s-message-tips"></a>
+		    <!--<h1 class="mui-title">首页</h1>-->
+		    <div class="mui-input-row mui-search s-search-container">
+    			<input type="search" class="mui-input-clear bg-transparent s-search-box" placeholder="场馆名称、地址">
+			</div>
+		</header>
+		<div class="mui-content">
+		   <div id="slider" class="mui-slider" >
+				<div class="mui-slider-group mui-slider-loop">
+					<!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+					<div class="mui-slider-item mui-slider-item-duplicate">
+						<a href="#">
+							<img src="./images/yuantiao.jpg">
+						</a>
+					</div>
+					<!-- 第一张 -->
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="./images/shuijiao.jpg">
+						</a>
+					</div>
+					<!-- 第二张 -->
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="./images/muwu.jpg">
+						</a>
+					</div>
+					<!-- 第三张 -->
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="./images/cbd.jpg">
+						</a>
+					</div>
+					<!-- 第四张 -->
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="./images/yuantiao.jpg">
+						</a>
+					</div>
+					<!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+					<div class="mui-slider-item mui-slider-item-duplicate">
+						<a href="#">
+							<img src="./images/shuijiao.jpg">
+						</a>
+					</div>
+				</div>
+				<div class="mui-slider-indicator">
+					<div class="mui-indicator mui-active"></div>
+					<div class="mui-indicator"></div>
+					<div class="mui-indicator"></div>
+					<div class="mui-indicator"></div>
+				</div>
+			</div>
+			<!--
+            	所用功能导航
+            -->
+			<div class="all-nav" style="padding-bottom: 0px;">
+				<ul class="mui-table-view mui-grid-view mui-grid-9 white-bg">
+		            <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-2"><a href="#">
+	                    <span class="mui-icon iconfont icon-yumaoqiu"></span>
+	                    <div class="mui-media-body">羽毛球</div></a>
+		            </li>
+		            <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-2"><a href="#">
+	                    <span class="mui-icon iconfont icon-zuqiu-copy"><span class="mui-badge" style="font-size: 0.2em !important;">5</span></span>
+	                    <div class="mui-media-body">足球</div></a>
+		            </li>
+		            <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-2"><a href="#">
+	                    <span class="mui-icon iconfont icon-tiyu-lanqiu"></span>
+	                    <div class="mui-media-body">篮球</div></a>
+		            </li>
+		            <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-2"><a href="#">
+	                    <span class="mui-icon iconfont icon-611pingpangqiu"></span>
+	                    <div class="mui-media-body">兵乓求</div></a>
+		            </li>
+		            <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-2"><a href="#">
+	                    <span class="mui-icon iconfont icon-youyong"></span>
+	                    <div class="mui-media-body">游泳</div></a>
+		            </li>
+		            <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-2"><a href="#">
+	                    <span class="mui-icon iconfont icon-paiqiu"></span>
+	                    <div class="mui-media-body">排球</div></a>
+		            </li>
+		            <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-2"><a href="#">
+	                    <span class="mui-icon iconfont icon-zhuoqiushixin"></span>
+	                    <div class="mui-media-body">桌球</div></a>
+		            </li>
+		           <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-2"><a href="#">
+	                    <span class="mui-icon iconfont icon-gengduo"></span>
+	                    <div class="mui-media-body">更多</div></a>
+		           </li>
+		        </ul> 
+			</div>
+			<!--场地预订列表 -->
+			<div class="field-book" style="margin-bottom: 50px;">
+				<div class="s-title">
+					场地预订
+				</div>
+				<div class="s-field-list">
+					<ul class="mui-table-view">
+						<li class="mui-table-view-cell mui-media">
+							<a href="javascript:;">
+								<img class="mui-media-object mui-pull-right" src="./images/yuantiao.jpg">
+								<div class="mui-media-body">
+									贵阳观山湖球馆
+									<p class='mui-ellipsis'>[观山湖区]&nbsp;&nbsp;距你10km</p>
+								</div>
+							</a>
+						</li>
+						<li class="mui-table-view-cell mui-media">
+							<a href="javascript:;">
+								<img class="mui-media-object mui-pull-right" src="./images/shuijiao.jpg">
+								<div class="mui-media-body">
+									贵阳遵义路大昌隆球馆
+									<p class='mui-ellipsis'>[南明区]&nbsp;&nbsp;距你1km</p>
+								</div>
+							</a>
+						</li>
+						<li class="mui-table-view-cell mui-media">
+							<a href="javascript:;">
+								<img class="mui-media-object mui-pull-right" src="./images/muwu.jpg">
+								<div class="mui-media-body">
+									贵阳六广门球馆
+									<p class='mui-ellipsis'>[云岩区]&nbsp;&nbsp;距你10.6km</p>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<nav class="mui-bar mui-bar-tab">
+		    <a class="mui-tab-item mui-active">
+		        <span class="mui-icon mui-icon-home"></span>
+		        <span class="mui-tab-label">首页</span>
+		    </a>
+		    <a class="mui-tab-item">
+		        <span class="mui-icon mui-icon-spinner-cycle"></span>
+		        <span class="mui-tab-label">商城</span>
+		    </a>
+		    <a class="mui-tab-item">
+		        <span class="mui-icon mui-icon-search"></span>
+		        <span class="mui-tab-label">发现</span>
+		    </a>
+		    <a class="mui-tab-item">
+		        <span class="mui-icon mui-icon-person"></span>
+		        <span class="mui-tab-label">我的</span>
+		    </a>
+		</nav>
+		<script type="text/javascript" charset="utf-8">
+		    //获得slider插件对象
+			var gallery = mui('.mui-slider');
+			gallery.slider({
+			  interval:5000//自动轮播周期，若为0则不自动播放，默认为0；
+			});
+		</script>
+	</body>
+</html>

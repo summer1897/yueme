@@ -1,0 +1,76 @@
+/**
+ * 公共样式
+ */
+* {
+	font-family: "微软雅黑";
+}
+.white-bg {
+	background: #fff !important;
+}
+.header-bg {
+	background-color: #66cc99;
+	color: #fff;
+	font-weight: 700;
+}
+.header-bg h1 {
+	color: #fff;
+}
+.mui-bar-tab .mui-tab-item.mui-active {
+	color: #66CC99;
+}
+.bg-transparent {
+	background-color: transparent !important;
+}
+.mui-input-row {
+	clear: none;
+	overflow: hidden;
+}
+
+/*首页*/
+.s-search-container {
+	width: 65%;
+	margin: auto;
+	/*border: 1px solid red;*/
+	/*margin: -300px auto auto auto !important;*/
+}
+.s-search-box {
+	border: 1px solid #e3e3e3 !important;
+}
+.s-home-location {
+	margin-top: 4px;
+	font-size: 16px !important;
+	color: #777;
+}
+.s-message-tips {
+	color: #777;
+	font-size: 18px !important;
+	margin-top: 3px;
+}
+.mui-search .mui-placeholder span {
+	font-size: 12px;
+	font-weight: 300;
+}
+.all-nav {
+	margin: 20px 0px;
+}
+.mui-table-view-cell {
+	/*border: 1px solid red;*/
+}
+.mui-table-view-cell span {
+	font-size: 1.8em !important;
+}
+.s-title {
+	margin: 20px 15px 10px;
+	color: #6d6d72;
+	font-size: 15px;
+}
+/*.s-icon {
+	line-height: 50px;
+  	margin: 10px 0;
+	-webkit-transition: font-size 0.25s ease-out 0s;
+	-moz-transition: font-size 0.25s ease-out 0s;
+	transition: font-size 0.25s ease-out 0s;
+}
+.s-icon:hover{
+	font-size: 50px !important;
+}*/
